@@ -118,6 +118,23 @@ class Ludus {
 }
 
 
+let spartacus = new Mirmillon(200, 100, "Spartacus", new Armement());
+let julius = new Retiaire(150, 150, "Julius", new Armement());
+let caesar = new Berseker(100, 200, "Caesar", new Armement());
+let batiatusLudus = new Ludus("Ludus");
+batiatusLudus.ajouterGladiateur(spartacus);
+batiatusLudus.ajouterGladiateur(julius);
+batiatusLudus.ajouterGladiateur(caesar);
+console.log(batiatusLudus);
+batiatusLudus.retirerGladiateur(spartacus);
+console.log(batiatusLudus);
+batiatusLudus.afficherGladiateurs();
+
+
+
+
+
+
 
 
 
