@@ -103,7 +103,7 @@ var Ludus = /** @class */ (function () {
 var spartacus = new Mirmillon(200, 100, "Spartacus", new Armement());
 var julius = new Retiaire(150, 150, "Julius", new Armement());
 var caesar = new Berseker(100, 200, "Caesar", new Armement());
-var batiatusLudus = new Ludus("Ludus");
+var batiatusLudus = new Ludus("Ludus de Batiatius");
 batiatusLudus.ajouterGladiateur(spartacus);
 batiatusLudus.ajouterGladiateur(julius);
 batiatusLudus.ajouterGladiateur(caesar);
@@ -111,4 +111,4 @@ console.log(batiatusLudus);
 batiatusLudus.retirerGladiateur(spartacus);
 console.log(batiatusLudus);
 batiatusLudus.afficherGladiateurs();
-//coucou
+//fin test POO
